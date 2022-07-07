@@ -6,6 +6,7 @@ import { ReactComponent as HeartIcon } from './assets/heart.svg';
 
 export const AdContainer = styled.a`
 	margin: 0 auto;
+	padding: 16px;
 	img {
 		width: 100%;
 		height: 100%;
@@ -21,14 +22,14 @@ export const RecipeContainer = styled.div`
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: space-between;
+	padding: 16px;
 
 	& img {
-		width: calc(100% - 32px);
-		max-height: 250px;
+		align-self: center;
+		width: 100%;
+		height: 25vh;
 		border-radius: 18px;
 		object-fit: cover;
-		margin: 16px;
-		margin-bottom: 0px;
 		user-select: none;
 	}
 
